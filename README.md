@@ -1,4 +1,4 @@
-# eda-playground
+# Eda-playground
 Ejemplos básicos para programación de FPGA, con su respectiva testbench.
 
 Ejemplo1 : Compuerta "and".

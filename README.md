@@ -1,7 +1,8 @@
 # Eda-playground
 Ejemplos básicos para programación de FPGA, con su respectiva testbench.
 
-Ejemplo1 : Compuerta "and".
+### Ejemplo1 : 
+Compuerta "and".
 
 Ejemplo2 : Compuertas "and", "or" y negación "not".
 

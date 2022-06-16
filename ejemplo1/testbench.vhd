@@ -15,7 +15,7 @@ Component Compuerta1 is
     );
 end Compuerta1;
 
-signal A_s, B_sn: STD_LOGIC:='0'; -- Señal de entrada
+signal A_s, B_s: STD_LOGIC:='0'; -- Señal de entrada
 signal F_s : STD_LOGIC; -- Señal de salida
 
 begin

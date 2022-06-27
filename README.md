@@ -14,14 +14,12 @@ Ejemplos básicos para programación de FPGA, con su respectiva testbench.
 ### 3. 
 **Ejemplo 5:** Registro utilizando un solo flip-flop.
 
-**Ejemplo 6:** Contador usando un registro de un 8 bits.
+**Ejemplo 6:** Contador incremental usando un registro de un 8 bits, el cual tiene un límite determinado.
 
-**Ejemplo 7:** Contador incremental usando un registro de un 8 bits, el cual tiene un límite determinado.
-
-**Ejemplo 8:** Contador decremental usando un registro de un 8 bits, el cual tiene un límite determinado.
+**Ejemplo 7:** Contador decremental usando un registro de un 8 bits, el cual tiene un límite determinado.
 
 ### 4. 
-**Ejemplo 4.1:** Selector de funciones (suma y resta), con funciones ejecutadas después.
+**Ejemplo 8:** Selector de funciones (suma y resta), con funciones ejecutadas después.
 
 ### 5. 
-**Ejemplo 5.1:** Máquina de estados.
+**Ejemplo 9:** Máquina de estados.

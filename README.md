@@ -21,5 +21,5 @@ Ejemplos básicos para programación de FPGA, con su respectiva testbench.
 ### 4. Utilizando funciones de otro códigos.
 **Ejemplo 8:** Selector de funciones (suma y resta), con funciones ejecutadas después.
 
-### 5. Máquina de estados, donde se pasa de un estado a otro.
+### 5. Máquina de estados, donde se pasa de un estado a otro cuando se cumple cierta condición.
 **Ejemplo 9:** Máquina de estados.

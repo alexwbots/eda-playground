@@ -10,14 +10,12 @@ architecture Behavioral of Simulacion is
 
 Component Registro1 is
   Port( clk, reset : in STD_LOGIC;
-        Entrada : in STD_LOGIC_VECTOR (7 downto 0);
         Salida : out STD_LOGIC_VECTOR (7 downto 0)
   );
 end component;
 
 -- Señal de entrada
 signal clk, reset : STD_LOGIC := '0';
-signal Entrada : STD_LOGIC_VECTOR (7 downto 0) := (others => '0'); 
 -- Señal de salida
 signal Salida : STD_LOGIC_VECTOR (7 downto 0);
 
@@ -28,7 +26,6 @@ begin
 U0: Registro1 Port map (
   clk => clk,
   reset => reset,
-  Entrada => Entrada,
   Salida => Salida
 );
 
@@ -46,25 +43,14 @@ process begin
   wait for 20 ns;
   
   reset <= '0';
-  wait for 20 ns;
-  
-  Entrada <= "11001100";
-  wait for 100 ns;
-  
-  Entrada <= "11111100";
-  wait for 100 ns;
-  
-  Entrada <= "10001100";
-  wait for 100 ns;
-  
-  Entrada <= "11001111";
-  wait for 100 ns;
+  wait for 80 ns;
   
   reset <= '1';
   wait for 20 ns;
   
   reset <= '0';
-  wait for 20 ns;
+  
+  wait;
 end process;
 
 end Behavioral;

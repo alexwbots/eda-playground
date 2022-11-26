@@ -29,7 +29,7 @@ end process;
 
 -- El numero 45 es 2D Hexadecimal y 101101 en binario
 D <= "00000000" when Q = "00101101" else  
-     Q+1;
+     Q-1;
 
 Salida <= Q;
   
